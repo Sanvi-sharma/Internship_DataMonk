@@ -66,84 +66,100 @@ Table of Contents
         Project: Google Cloud Clone
 
 1. Linux
-    a.Linux in Everyday Life
 
-    b.A foundational section to understanding how Linux powers everyday computing, from servers to desktops.
+
+    a. Linux in Everyday Life
+
+    b. A foundational section to understanding how Linux powers everyday computing, from servers to desktops.
    
-      Project: Ubuntu Installation
+          Project: Ubuntu Installation
 
-    c.Hands-on project to install Ubuntu on a virtual machine.
+    c. Hands-on project to install Ubuntu on a virtual machine.
    
-      Project: Permission Exercises
+          Project: Permission Exercises
 
-    d.Worked on Linux permission exercises to learn file and directory access control.
+    d. Worked on Linux permission exercises to learn file and directory access control.
    
-      Project: Installation and Maintenance Exercises
+          Project: Installation and Maintenance Exercises
 
-    e.Gained experience in software installation and system maintenance.
+    e. Gained experience in software installation and system maintenance.
    
-      Project: Desktop Customization
+          Project: Desktop Customization
 
-    f.Focused on personalizing the desktop environment for better productivity and usability.
+    f. Focused on personalizing the desktop environment for better productivity and usability.
+   
    
 3. Git
-    a.Version Control
 
-    b.Introduced to the basics of version control using Git.
+ 
+    a. Version Control
 
-    c.Learned the core commands and concepts of Git, including repository setup, commits, and branches.
-   
-    d.Git Workflow: Covered how to work with Git branches, merges, and resolving conflicts.
-   
-    e.Collaborating with Git: Learned how to collaborate on projects using Git, including remote repositories like GitHub.
-   
-      Project: GitHub Repository
-   
-    f.Built and managed a GitHub repository to store project files and collaborate with others.
-   
-5. SQL
-    a.Why Relational Databases?
+    b. Introduced to the basics of version control using Git.
 
-    b.Introduced to relational databases and their importance in storing structured data.
+    c. Learned the core commands and concepts of Git, including repository setup, commits, and branches.
    
-    c.SQL in Everyday Life: Learned how SQL is used in daily tech operations, from queries to data management.
+    d. Git Workflow: Covered how to work with Git branches, merges, and resolving conflicts.
    
-      Project: Learn SQL
+    e. Collaborating with Git: Learned how to collaborate on projects using Git, including remote repositories like GitHub.
+   
+          Project: GitHub Repository
+   
+    f. Built and managed a GitHub repository to store project files and collaborate with others.
 
-    d.Hands-on exercises focused on learning and implementing SQL queries.
    
-    e.Getting Started with SQL: Introduced to basic SQL commands such as SELECT, INSERT, UPDATE, and DELETE.
    
-7. Docker
-    a.Working on My Machines
+3. SQL
 
-    b.Learned how Docker helps in managing containerized applications in development environments.
    
-    c.Containerization: Introduced to containerization and how it differs from virtualization.
-   
-    d.Getting Started with Docker: Covered how to install Docker and create containers.
-   
-    e.Docker Concepts: Learned essential Docker concepts like images, containers, volumes, and networks.
-   
-8. Cloud Computing
-    a.How Internet Works
+    a. Why Relational Databases?
 
-    b.Introduced to the basics of networking and how the internet facilitates cloud computing.
+    b. Introduced to relational databases and their importance in storing structured data.
    
-    c.Hosting on Local: Learned how to set up a local server environment for hosting applications.
+    c. SQL in Everyday Life: Learned how SQL is used in daily tech operations, from queries to data management.
    
-    d.Why Cloud Computing: Understanding the importance and benefits of cloud computing in modern businesses.
+          Project: Learn SQL
+
+    d. Hands-on exercises focused on learning and implementing SQL queries.
    
-    e.Business of Cloud Computing: Explored the economics and business models surrounding cloud computing.
+    e. Getting Started with SQL: Introduced to basic SQL commands such as SELECT, INSERT, UPDATE, and DELETE.
    
-    f.Intro to AWS: Gained hands-on experience with AWS cloud services, starting with basic setup.
+   
+4. Docker
+
+   
+    a. Working on My Machines
+
+    b. Learned how Docker helps in managing containerized applications in development environments.
+   
+    c. Containerization: Introduced to containerization and how it differs from virtualization.
+   
+    d. Getting Started with Docker: Covered how to install Docker and create containers.
+   
+    e. Docker Concepts: Learned essential Docker concepts like images, containers, volumes, and networks.
+
+   
+   
+5. Cloud Computing
+
+   
+    a. How Internet Works
+
+    b. Introduced to the basics of networking and how the internet facilitates cloud computing.
+   
+    c. Hosting on Local: Learned how to set up a local server environment for hosting applications.
+   
+    d. Why Cloud Computing: Understanding the importance and benefits of cloud computing in modern businesses.
+   
+    e. Business of Cloud Computing: Explored the economics and business models surrounding cloud computing.
+   
+    f. Intro to AWS: Gained hands-on experience with AWS cloud services, starting with basic setup.
    
         i.S3 Basics: Learned how to use Amazon S3 for object storage and managing data.
         ii.EC2 Instances & S3: Worked with EC2 instances and how they integrate with other AWS services like S3.
    
-    Project: Google Cloud Clone
+            Project: Google Cloud Clone
 
-    g.Built a project to simulate some functionalities of Google Cloud using cloud services.
+    g. Built a project to simulate some functionalities of Google Cloud using cloud services.
    
    
 Conclusion
