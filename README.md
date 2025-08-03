@@ -69,20 +69,24 @@ Table of Contents
     a.Linux in Everyday Life
 
     b.A foundational section to understanding how Linux powers everyday computing, from servers to desktops.
+   
       Project: Ubuntu Installation
 
     c.Hands-on project to install Ubuntu on a virtual machine.
+   
       Project: Permission Exercises
 
     d.Worked on Linux permission exercises to learn file and directory access control.
+   
       Project: Installation and Maintenance Exercises
 
     e.Gained experience in software installation and system maintenance.
+   
       Project: Desktop Customization
 
     f.Focused on personalizing the desktop environment for better productivity and usability.
    
-2. Git
+3. Git
     a.Version Control
 
     b.Introduced to the basics of version control using Git.
@@ -92,23 +96,25 @@ Table of Contents
     d.Git Workflow: Covered how to work with Git branches, merges, and resolving conflicts.
    
     e.Collaborating with Git: Learned how to collaborate on projects using Git, including remote repositories like GitHub.
+   
       Project: GitHub Repository
    
     f.Built and managed a GitHub repository to store project files and collaborate with others.
    
-3. SQL
+5. SQL
     a.Why Relational Databases?
 
     b.Introduced to relational databases and their importance in storing structured data.
    
     c.SQL in Everyday Life: Learned how SQL is used in daily tech operations, from queries to data management.
+   
       Project: Learn SQL
 
     d.Hands-on exercises focused on learning and implementing SQL queries.
    
     e.Getting Started with SQL: Introduced to basic SQL commands such as SELECT, INSERT, UPDATE, and DELETE.
    
-5. Docker
+7. Docker
     a.Working on My Machines
 
     b.Learned how Docker helps in managing containerized applications in development environments.
@@ -119,7 +125,7 @@ Table of Contents
    
     e.Docker Concepts: Learned essential Docker concepts like images, containers, volumes, and networks.
    
-7. Cloud Computing
+8. Cloud Computing
     a.How Internet Works
 
     b.Introduced to the basics of networking and how the internet facilitates cloud computing.
@@ -141,4 +147,6 @@ Table of Contents
    
    
 Conclusion
+
+
 This repository highlights the key learnings from my internship at Datamonk, providing a comprehensive overview of each subject area I’ve covered. The hands-on projects and exercises have helped me build a solid foundation in Linux, Git, SQL, Docker, and Cloud Computing. I look forward to applying these skills in future projects and expanding my knowledge in the tech field.
