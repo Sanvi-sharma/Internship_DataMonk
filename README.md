@@ -1,4 +1,4 @@
-Internship Program at Datamonk
+# **Internship Program at Datamonk**
 
 This repository contains all the projects, exercises, and tasks completed during my internship at Datamonk. It is a comprehensive overview of my learning journey, focusing on key topics like Linux, Git, SQL, Docker, and Cloud Computing.
 
@@ -163,7 +163,7 @@ This repository contains all the projects, exercises, and tasks completed during
     g. Built a project to simulate some functionalities of Google Cloud using cloud services.
    
    
-Conclusion
+## **Conclusion**
 
 
 This repository highlights the key learnings from my internship at Datamonk, providing a comprehensive overview of each subject area I’ve covered. The hands-on projects and exercises have helped me build a solid foundation in Linux, Git, SQL, Docker, and Cloud Computing. I look forward to applying these skills in future projects and expanding my knowledge in the tech field.
