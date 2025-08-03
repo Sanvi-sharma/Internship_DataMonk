@@ -1,69 +1,70 @@
 Internship Program at Datamonk
 
 This repository contains all the projects, exercises, and tasks completed during my internship at Datamonk. It is a comprehensive overview of my learning journey, focusing on key topics like Linux, Git, SQL, Docker, and Cloud Computing.
-Table of Contents
 
-    Linux
+    Table of content 
+    
+    1. Linux
 
-        Linux in Everyday Life
+        - Linux in Everyday Life
 
-        Project: Ubuntu Installation
+        - Project: Ubuntu Installation
 
-        Project: Permission Exercises
+        - Project: Permission Exercises
 
-        Project: Installation and Maintenance Exercises
+        - Project: Installation and Maintenance Exercises
 
-        Desktop Customization
+        - Desktop Customization
 
-    Git
+    2. Git
 
-        Version Control
+        - Version Control
 
-        Getting Started
+        - Getting Started
 
-        Git Workflow
+        - Git Workflow
 
-        Collaborating with Git
+        - Collaborating with Git
 
-        Project: GitHub Repository
+        - Project: GitHub Repository
 
-    SQL
+    3. SQL
 
-        Why Relational Databases?
+        - Why Relational Databases?
 
-        SQL in Everyday Life
+        - SQL in Everyday Life
 
-        Project: Learn SQL
+        - Project: Learn SQL
 
-        Getting Started with SQL
+        - Getting Started with SQL
 
-    Docker
+    4. Docker
 
-        Working on My Machines
+        - Working on My Machines
 
-        Containerization
+        - Containerization
 
-        Getting Started with Docker
+        - Getting Started with Docker
 
-        Docker Concepts
+        - Docker Concepts
 
-    Cloud Computing
+    5. Cloud Computing
 
-        How Internet Works
+        - How Internet Works
 
-        Hosting on Local
+        - Hosting on Local
 
-        Why Cloud Computing
+        - Why Cloud Computing
 
-        Business of Cloud Computing
+        - Business of Cloud Computing
 
-        Intro to AWS
+        - Intro to AWS
 
-        S3 Basics
+        - S3 Basics
 
-        EC2 Instances & S3
+        - EC2 Instances & S3
 
-        Project: Google Cloud Clone
+        - Project: Google Cloud Clone
 
 1. Linux
 
