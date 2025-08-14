@@ -24,7 +24,7 @@ Linux provides **three main ways** to get help about commands. These exist becau
 
 ## 🔍 Searching Files in Linux
 
-## 🔍 Difference Between `ls | grep ".txt"` and `find . -name "*.txt"`
+Difference Between `ls | grep ".txt"` and `find . -name "*.txt"`
 
 Searching for files in Linux can be done in multiple ways, but understanding **how** and **when** to use each method is important.
 
