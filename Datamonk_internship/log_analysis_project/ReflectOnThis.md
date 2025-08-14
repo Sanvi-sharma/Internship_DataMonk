@@ -29,18 +29,18 @@ Commands like `cd`, `history`, `exit` — which are part of the shell itself.
 `ls | grep` is limited to the current folder, while `find` is far more powerful and robust for large or nested searches.
 Both commands aim to find .txt files, but they work differently:
 
-    ls | grep ".txt":
-        Filters file names in the current directory only.
-        Simple and fast, but limited.
-        May not handle special characters or nested folders well.
+ls | grep ".txt":
+    Filters file names in the current directory only.
+    Simple and fast, but limited.
+    May not handle special characters or nested folders well.
 
-    find . -name "*.txt":
-        Searches recursively through the current directory and all subfolders.
-        More powerful and flexible for deep searches.
-        Handles special characters and file paths better.
+find . -name "*.txt":
+    Searches recursively through the current directory and all subfolders.
+    More powerful and flexible for deep searches.
+    Handles special characters and file paths better.
 
-    ✔️ Use ls | grep when working in a known folder.
-    🔍 Use find when you need to explore subdirectories or unknown paths.
+✔️ Use ls | grep when working in a known folder.
+🔍 Use find when you need to explore subdirectories or unknown paths.
 
 
 ---
