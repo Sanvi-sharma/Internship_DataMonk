@@ -19,3 +19,17 @@ Linux provides **three main ways** to get help about commands. These exist becau
 - Full manual:
   ```bash
   man ls
+
+--- 
+
+## 🔍 Searching Files in Linux
+
+| Command                      | Recursively Searches? | Handles Filenames with Spaces? | Best Use Case                          |
+|-----------------------------|------------------------|----------------------------------|----------------------------------------|
+| `ls | grep ".txt"`          | ❌ No                  | ❌ No                            | Quick filter in current directory      |
+| `find . -name "*.txt"`      | ✅ Yes                 | ✅ Yes                           | Searching deeply through directories   |
+
+🔸 **Key Difference:**  
+`ls | grep` is limited to the current folder, while `find` is far more powerful and robust for large or nested searches.
+
+---
