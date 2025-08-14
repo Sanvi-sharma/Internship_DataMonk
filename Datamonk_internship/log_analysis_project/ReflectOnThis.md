@@ -24,12 +24,27 @@ Linux provides **three main ways** to get help about commands. These exist becau
 
 ## 🔍 Searching Files in Linux
 
-| Command                      | Recursively Searches? | Handles Filenames with Spaces? | Best Use Case                          |
-|-----------------------------|------------------------|----------------------------------|----------------------------------------|
-| `ls | grep ".txt"`          | ❌ No                  | ❌ No                            | Quick filter in current directory      |
-| `find . -name "*.txt"`      | ✅ Yes                 | ✅ Yes                           | Searching deeply through directories   |
+## 🔍 Difference Between `ls | grep ".txt"` and `find . -name "*.txt"`
 
-🔸 **Key Difference:**  
-`ls | grep` is limited to the current folder, while `find` is far more powerful and robust for large or nested searches.
+Searching for files in Linux can be done in multiple ways, but understanding **how** and **when** to use each method is important.
+
+---
+
+### 🆚 Key Differences
+
+| Feature                        | `ls | grep ".txt"`                              | `find . -name "*.txt"`                          |
+|-------------------------------|--------------------------------------------------|--------------------------------------------------|
+| **Searches subdirectories?**  | ❌ No — only current directory                  | ✅ Yes — searches recursively                   |
+| **Handles special filenames?**| ❌ No — breaks with spaces or symbols           | ✅ Yes — handles spaces and special characters  |
+| **Speed on large directories**| ✅ Faster, but limited in scope                 | ❌ Slower, but thorough                         |
+| **Flexibility**               | ❌ Low — just filters visible list              | ✅ High — can search by time, size, etc.        |
+
+---
+
+### ✅ Example 1: Using `ls | grep`
+
+```bash
+ls | grep ".txt"
+
 
 ---
