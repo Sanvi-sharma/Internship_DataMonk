@@ -1,6 +1,4 @@
-# Linux Permissions & `sudo` – Deep‑Dive Q\&A
-
-> Answers prepared for internship submission. Concise, accurate, and focused on real‑world impact.
+# Linux Permissions (Reflect On This section)
 
 ---
 
@@ -19,7 +17,7 @@ Even if you only want to **read** a file inside a directory, the kernel must wal
 * `x` on a directory lets you **access** those names (stat/open them) and **traverse** into subdirectories.
 * To reliably work inside a directory: you usually need **`r+x`**.
 
-**Demo you can try:**
+**Example :**
 
 ```bash
 mkdir -p demo/d && echo "hello" > demo/d/a.txt
