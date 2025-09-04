@@ -1,15 +1,15 @@
 # ReflectOnThis.md
 ---
-# 📦 APT vs Snap in Ubuntu
+# APT vs Snap in Ubuntu
 
-## ❓ Question  
+## Question  
 The lesson introduces both **APT** and **Snap**.  
 Why might a developer choose to install an application using Snap even if it’s available in the official APT repositories?  
 What are the potential trade-offs (e.g., application startup time, disk space usage, automatic updates)?  
 
 ---
 
-## ✅ Answer  
+## Answer  
 
 ### 🔹 Why Choose Snap Over APT?  
 A developer may prefer **Snap** over **APT** because:  
@@ -20,7 +20,7 @@ A developer may prefer **Snap** over **APT** because:
 
 ---
 
-### ⚖️ Trade-Offs Between APT and Snap  
+### Trade-Offs Between APT and Snap  
 
 | Aspect              | **APT (Deb Packages)**                          | **Snap (Containerized Packages)**                  |
 |---------------------|-------------------------------------------------|---------------------------------------------------|
@@ -32,6 +32,5 @@ A developer may prefer **Snap** over **APT** because:
 
 ---
 
-### 📝 Summary  
 - **Use APT** → When you want speed, lighter disk usage, and deeper system integration.  
 - **Use Snap** → When you prefer automatic updates, cross-distro compatibility, and stronger security.  
