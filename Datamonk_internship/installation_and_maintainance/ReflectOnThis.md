@@ -67,12 +67,21 @@ For searching through a large software project’s source code, why is **rg** of
 | **File Type Filtering** | Requires complex regex.              | Simple flags like `--type`.             |
 
 ---
+# curl vs wget
 
-### Example  
+## Question  
+Describe a specific task where **curl** is the only appropriate tool for the job, and another task where **wget’s** features make it the superior choice.  
+What core design difference between the two utilities leads to these distinct use cases?  
 
+---
+
+## Answer  
+
+### 🔹 When `curl` is the Only Appropriate Tool  
+- **Task:** Interacting with APIs (sending HTTP requests with custom headers, tokens, or data).  
+- Example:  
 ```bash
-# Search for "database" in a Python project using grep
-grep -r "database" .
-
-# Search for "database" in a Python project using rg
-rg "database" --type py
+# Send a POST request with JSON data to an API
+curl -X POST https://api.example.com/data \
+     -H "Content-Type: application/json" \
+     -d '{"name":"Sanvi","age":20}'
