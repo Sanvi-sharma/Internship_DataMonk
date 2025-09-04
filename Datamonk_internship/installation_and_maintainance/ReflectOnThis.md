@@ -85,3 +85,34 @@ What core design difference between the two utilities leads to these distinct us
 curl -X POST https://api.example.com/data \
      -H "Content-Type: application/json" \
      -d '{"name":"Sanvi","age":20}'
+```
+➡ curl is designed for data transfer and supports complex HTTP methods (GET, POST, PUT, DELETE, etc.), making it the go-to for API testing and web service interaction.
+### When wget is the Superior Choice
+
+Task: Downloading an entire website or large files with resume support.
+
+Example:
+```bash
+# Mirror a website locally (recursively download)
+wget --mirror --convert-links --page-requisites --no-parent https://example.com
+
+# Resume a large file download
+wget -c https://example.com/largefile.iso
+```
+➡ wget excels at file retrieval, recursive downloading, and resuming interrupted downloads, which curl does not handle as effectively.
+
+---
+
+# Fetching GitHub Repository Names and Languages with curl & jq
+
+You can use `curl` and `jq` to fetch your public repositories from GitHub and create a clean list of their **names** and **main programming languages**.
+
+---
+
+## Step 1: Fetch your public repositories
+
+Use the GitHub API endpoint for your user:
+
+```bash
+curl -s https://api.github.com/users/<username>/repos
+```
